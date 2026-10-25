@@ -1,0 +1,75 @@
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+.history/
+
+# Maven build output
+target/
+*.class
+
+# Maven-generated backup files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Allure results and generated reports
+allure-results/
+allure-report/
+
+# TestNG and other generated reports
+test-output/
+
+# Logs
+logs/
+log/
+*.log
+*.log.*
+
+# Temporary and editor backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Local environment and secret overrides
+.env
+.env.*
+!.env.example
+*.local.properties
+
+# Java crash dumps
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# Keep Maven Wrapper files versioned
+!.mvn/
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.jar
+!mvnw
+!mvnw.cmd
